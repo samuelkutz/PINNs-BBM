@@ -1,2 +1,1 @@
-# BBM.jl
-Archive repository for my Scientific Initiation project on Physics-Informed Neural Networks for solving the Benjamin-Bona-Mahony partial diferential equation.
+# Physics-Informed Neural Network for approximating solutions of the Equação de Benjamin-Bona-Mahony equation
