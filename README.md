@@ -45,4 +45,4 @@ $$
     \end{alignat*}
 $$
 
-where $A > 0$, $k = \displaystyle \sqrt{\frac{A}{12+4A}}$ e $c = 1 + \displaystyle \frac{A}{3}$.
+where $A > 0$, $k = \sqrt{\frac{A}{12+4A}}$ e $c = 1 + \frac{A}{3}$.
