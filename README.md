@@ -39,9 +39,9 @@ The problem is then written as:
 $$
     \begin{alignat*}{2}
         u_t + u_x + u u_x - u_{xxt} &= 0, &\qquad& (x,t) \in  (-10, 20) \times (0,4),\\
-        u(x,0) &= A\sech^2(kx), &\qquad& x \in (-10, 20),\\
-        u(-10,t) &= A\sech^2(k(-10 - ct)), \\
-        u(20,t) &= A\sech^2(k(20 - ct)), &\qquad& t \in (0,4),
+        u(x,0) &= Asech^2(kx), &\qquad& x \in (-10, 20),\\
+        u(-10,t) &= Asech^2(k(-10 - ct)), \\
+        u(20,t) &= Asech^2(k(20 - ct)), &\qquad& t \in (0,4),
     \end{alignat*}
 $$
 
