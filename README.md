@@ -1,15 +1,15 @@
 # Physics-Informed Neural Networks (PINNs) for approximating solutions of the Benjamin-Bona-Mahony (BBM) equation
 
-In this repo, I archive all my work on the project, from my initial Python notebooks to all my PDF slides that were used (in Portuguese).
+In this repo, I archive all my work on the project, from my Python notebooks to all my PDF slides that were used (in Portuguese).
 
 We aim to approximate solutions of the following problem: 
 
 $$
 \begin{aligned}
-    u_t + u_x + u \, u_x - \, u_{xxt} &= 0, \quad &&\quad (x,t) \in  (-10, 20) \times (0,4) \\
-   u(x,0) &= u_0(x),                 \quad &&\quad x \in (-10, 20),\\
-   u(-10,t) &= g_1(t) \\
-   u(20,t) &= g_2(t)                      \quad &&\quad t \in (0,4),
+    u_t + u_x + u \, u_x - u_{xxt} &= 0, \quad &&\quad (x,t) \in  (-10, 20) \times (0,4) \\
+    u(x,0) &= u_0(x),                 \quad &&\quad x \in (-10, 20),\\
+    u(-10,t) &= g_1(t) \\
+    u(20,t) &= g_2(t)                      \quad &&\quad t \in (0,4),
 \end{aligned}
 $$
 
@@ -37,12 +37,12 @@ With the goal of providing the best scenario for the PINNs, we use this solution
 The problem is then written as:
 
 $$
-    \begin{alignat*}{2}
-        u_t + u_x + u u_x - u_{xxt} &= 0, &\qquad& (x,t) \in  (-10, 20) \times (0,4),\\
-        u(x,0) &= Asech^2(kx), &\qquad& x \in (-10, 20),\\
-        u(-10,t) &= Asech^2(k(-10 - ct)), \\
-        u(20,t) &= Asech^2(k(20 - ct)), &\qquad& t \in (0,4),
-    \end{alignat*}
+\begin{alignat*}{2}
+    u_t + u_x + u u_x - u_{xxt} &= 0, &\qquad& (x,t) \in  (-10, 20) \times (0,4),\\
+    u(x,0) &= Asech^2(kx), &\qquad& x \in (-10, 20),\\
+    u(-10,t) &= Asech^2(k(-10 - ct)), \\
+    u(20,t) &= Asech^2(k(20 - ct)), &\qquad& t \in (0,4),
+\end{alignat*}
 $$
 
 where 
@@ -62,7 +62,7 @@ In a fixed setting we manage to obtain various results for each, as listed in th
 
 ![corrida_opt](https://github.com/user-attachments/assets/4d69534a-15e9-46c3-be93-61572027552f)
 
-The main conclusion of the research is that the L-BFGS method is the most suited optimizer for the BBM equation problem proposed.
+The main conclusion of the research is that the L-BFGS method is the most suited optimizer for the proposed BBM equation problem.
 
 ## References
 
