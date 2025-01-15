@@ -62,7 +62,7 @@ In a fixed setting we manage to obtain various results for each, as listed in th
 
 ![corrida_opt](https://github.com/user-attachments/assets/4d69534a-15e9-46c3-be93-61572027552f)
 
-The main conclusion the research is that the L-BFGS method is the most suited optimizer for the BBM equation problem proposed.
+The main conclusion of the research is that the L-BFGS method is the most suited optimizer for the BBM equation problem proposed.
 
 ## References
 
