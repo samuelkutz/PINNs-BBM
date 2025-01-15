@@ -29,8 +29,8 @@ $$
 
 where 
 - $A > 0$ is given and called the **amplitude**;
-- $k = \displaystyle \sqrt{\frac{A}{12+4A}}$, called the **frequency**;
-- $c = 1 + \displaystyle \frac{A}{3}$, called the **velocity**.
+- $k = \sqrt{\frac{A}{12+4A}}$, called the **frequency**;
+- $c = 1 + \frac{A}{3}$, called the **velocity**.
 
 With the goal of providing the best scenario for the PINNs, we use this solution evaluated at initial time and boundary. 
 
@@ -47,8 +47,8 @@ $$
 
 where 
 - $A > 0$;
-- $k = \displaystyle \sqrt{\frac{A}{12+4A}}$;
-- $c = 1 + \displaystyle \frac{A}{3}$;
+- $k = \sqrt{\frac{A}{12+4A}}$;
+- $c = 1 + \frac{A}{3}$;
 
 For approximating solutions, we use the [DeepXDE](https://github.com/lululxvi/deepxde) library, which is a kind of interface that links Deep Learning frameworks like TensorFlow and PyTorch to a way of easily modelling PDEs in Python.
 
@@ -62,7 +62,7 @@ In a fixed setting we manage to obtain various results for each, as listed in th
 
 ![corrida_opt](https://github.com/user-attachments/assets/4d69534a-15e9-46c3-be93-61572027552f)
 
-The main result is that the L-BFGS method is the most suited optimizer for the BBM equation problem proposed.
+The main conclusion the research is that the L-BFGS method is the most suited optimizer for the BBM equation problem proposed.
 
 ## References
 
